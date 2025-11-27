@@ -12,8 +12,7 @@ While the original article applies VGAE to Bitcoin transactions, our goal is to 
 
 ## Dataset
 
-We are using the IEEE-CIS Fraud Detection dataset from Kaggle:  
-[Kaggle competition page](https://www.kaggle.com/competitions/ieee-fraud-detection)
+We are using the IEEE-CIS Fraud Detection dataset from Kaggle: [Kaggle competition page](https://www.kaggle.com/competitions/ieee-fraud-detection)
 
 **Files required:**
 - `train_transaction.csv` / `test_transaction.csv` – transactional features  
@@ -22,7 +21,7 @@ We are using the IEEE-CIS Fraud Detection dataset from Kaggle:
 **Dataset folder structure (required for the repository):**
 
 
-> Ensure the CSV files are placed inside the `data/` folder at the repository root.
+Ensure the CSV files are placed inside the `data/` folder at the repository root.
 
 ```bash
 repository_root/
