@@ -12,7 +12,7 @@ While the original article applies VGAE to Bitcoin transactions, our goal is to 
 
 ## Dataset
 
-We are using the Credit Card Transactions Fraud Detection dataset from Kaggle: [Kaggle competition page](https://www.kaggle.com/datasets/kartik2112/fraud-detection/data)
+We are using the Credit Card Transactions Fraud Detection dataset from Kaggle: [Kaggle dataset page](https://www.kaggle.com/datasets/kartik2112/fraud-detection/data)
 
 **Files required:**
 - `fraudTrain.csv`
