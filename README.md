@@ -6,17 +6,17 @@ This project implements a graph-based fraud detection approach using Variational
 **Reference:**  
 _"Graph-Based Bitcoin Fraud Detection Using Variational Graph Autoencoders and Supervised Learning"_ (DOI: [10.1016/j.procs.2025.03.105](https://doi.org/10.1016/j.procs.2025.03.105))  
 
-While the original article applies VGAE to Bitcoin transactions, our goal is to adapt this approach to the IEEE-CIS Fraud Detection dataset, a Kaggle competition dataset containing anonymized credit card transaction data.
+While the original article applies VGAE to Bitcoin transactions, our goal is to adapt this approach to a simulated credit card transaction dataset, a Kaggle dataset that was generated using Sparkov Data Generation (Github tool created by Brandon Harris).
 
 ---
 
 ## Dataset
 
-We are using the IEEE-CIS Fraud Detection dataset from Kaggle: [Kaggle competition page](https://www.kaggle.com/competitions/ieee-fraud-detection)
+We are using the Credit Card Transactions Fraud Detection dataset from Kaggle: [Kaggle competition page](https://www.kaggle.com/datasets/kartik2112/fraud-detection/data)
 
 **Files required:**
-- `train_transaction.csv` / `test_transaction.csv` – transactional features  
-- `train_identity.csv` / `test_identity.csv` – identity/device features  
+- `fraudTrain.csv`
+- `fraudTest.csv`  
 
 **Dataset folder structure (required for the repository):**
 
@@ -27,10 +27,8 @@ Ensure the CSV files are placed inside the `data/` folder at the repository root
 repository_root/
 │
 ├─ data/
-│  ├─ train_transaction.csv
-│  ├─ test_transaction.csv
-│  ├─ train_identity.csv
-│  └─ test_identity.csv
+│  ├─ fraudTrain.csv
+│  └─ fraudTest.csv
 │
 ```
 
